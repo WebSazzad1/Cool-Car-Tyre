@@ -1,0 +1,398 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PoppinsRegular';
+  
+ 
+}
+@font-face {
+    font-family: "PoppinsBold";
+    src: url("fonts/PoppinsBold.eot");
+    src: url("fonts/PoppinsBold.eot") format("embedded-opentype"), url("fonts/PoppinsBold.html") format("woff2"), url("fonts/PoppinsBold.woff") format("woff"), url("fonts/PoppinsBold.ttf") format("truetype"), url("fonts/PoppinsBold.svg#PoppinsBold") format("svg");
+}
+
+@font-face {
+    font-family: "PoppinsLight";
+    src: url("fonts/PoppinsLight.eot");
+    src: url("fonts/PoppinsLight.eot") format("embedded-opentype"), url("fonts/PoppinsLight.html") format("woff2"), url("fonts/PoppinsLight.woff") format("woff"), url("fonts/PoppinsLight.ttf") format("truetype"), url("fonts/PoppinsLight.svg#PoppinsLight") format("svg");
+}
+
+@font-face {
+    font-family: "PoppinsSemiBold";
+    src: url("fonts/PoppinsSemiBold.eot");
+    src: url("fonts/PoppinsSemiBold.eot") format("embedded-opentype"), url("fonts/PoppinsSemiBold.html") format("woff2"), url("fonts/PoppinsSemiBold.woff") format("woff"), url("fonts/PoppinsSemiBold.ttf") format("truetype"), url("fonts/PoppinsSemiBold.svg#PoppinsSemiBold") format("svg");
+}
+
+@font-face {
+    font-family: "PoppinsRegular";
+    src: url("fonts/PoppinsRegular.eot");
+    src: url("fonts/PoppinsRegular.eot") format("embedded-opentype"), url("fonts/PoppinsRegular.html") format("woff2"), url("fonts/PoppinsRegular.woff") format("woff"), url("fonts/PoppinsRegular.ttf") format("truetype"), url("fonts/PoppinsRegular.svg#PoppinsRegular") format("svg");
+}
+.commonPadd {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.hero_heading{
+    font-size: 64px;
+}
+.heading {
+    font-size: 36px;   
+}
+.subheading {
+    font-size: 24px;
+    line-height: 34px;   
+}
+.smallheading{
+    font-size: 18px;
+}
+.f-b{
+    font-family: 'PoppinsBold';
+    font-weight: bold;
+}
+.f-sb{
+    font-family: 'PoppinsSemiBold';
+    font-weight: 400; 
+}
+.f-l{
+    font-family: 'PoppinsLight';
+}
+.f-r{
+    font-family: 'PoppinsRegular';
+}
+p {
+    line-height: 30px;
+    font-family: 'PoppinsRegular';
+    font-size: 16px;
+}
+.pbg{
+    background-color: #0F0F0F;
+}
+.sbg{
+    background-color: #0A0A0A;
+}
+header nav .nav-link{
+    font-size: 16px;
+    color: #fff !important;
+}
+.theme_btn{
+    background: #fedb00;
+    background: linear-gradient(322deg, #fedb00 0%, #fedb00 100%);
+    color: #222;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+    font-family:'PoppinsSemiBold';
+    transition: all 0.3s ease;
+}
+#heroBg{
+    background-image: url(../images/herobg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.theme_outline_btn {
+    background: transparent;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    font-family: 'PoppinsSemiBold';
+    transition: all 0.3s ease;
+}
+.theme_btn:hover,.theme_outline_btn:hover {
+    background: #fff;
+    color: #181818;
+    transform: scale(1.025);
+}
+.t-p{
+    color: #fedb00;
+}
+.ybg{
+    background: #fedb0099;
+}
+.p20p {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.t-white{
+    color:#fff;
+}
+.bgdark{
+    background: #F6F9FE;
+}
+footer a{
+    color:#fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#fedb00;
+    text-decoration: none;
+}
+.poweredbyImg{
+    width: 180px;
+}
+.lh-0{
+    line-height: 0;
+}
+
+  #videoModal{
+    z-index: 999999999999;
+  }
+  .minlogo{
+    width: 120px;
+  }
+  iframe#iframeTB {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    padding: 24px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+    height: 860px !important;
+}
+.pribox {
+    background: #fedb00;
+    padding: 20px;
+    border-radius: 15px;
+}
+.ihover{
+    transition: all 0.3s ease;
+}
+.ihover:hover{
+    transform: scale(1.05);
+}
+.w80{
+    width:80%;
+} 
+.serviceBox {
+    background: #0f0f0f;   
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    min-height: 480px;
+} 
+.serviceBox img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+  
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.02);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+.copy-right {
+    font-size: 10px;
+}
+.brandBox {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandBox img{
+    height: 80px;
+    object-fit: contain;
+}
+.darkBox {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.servicesBox {
+    background: #fff;
+    padding: 15px;
+    border-radius: 20px;
+}
+.servicesBox img {
+    border-radius: 15px !important;
+}
+.careerBox {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+} 
+.contactUsBox .contImg {
+    background: #fedb00;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.contactUsBox .contText a{
+    color: #fedb00;
+}
+.contactUsBox .contText a:hover{
+    color: #fff;
+}
+@media only screen and (max-width: 767px) {   
+    .heading {
+        font-size: 30px;
+    }
+   
+    header nav .nav-link {
+        color: #fff !important;
+        font-size: 16px;
+    }
+    
+    .w50{
+        width: 50px;
+    }
+    .p20p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .hero_heading {
+        font-size: 34px;
+    }
+    header .navbar-nav{
+        margin-left: 0px !important;
+    }
+    header span.navbar-text {
+        margin-left: 12px;
+        margin-bottom: 14px !important;
+        display: inline-block;
+    }
+    .subheading {
+        font-size: 24px;
+        line-height: 34px;
+    }   
+    .commonPadd {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }  
+   
+    .navbar-light .navbar-toggler-icon {
+        background: none;
+    }
+    span.navbar-toggler-icon svg {
+        width: 60px;
+        height: 30px;
+    }
+    button.navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+   /*  .pribox {       
+        margin-left: 30px;
+        margin-right: 30px;
+    } */
+    #heroBg {
+        background: #0f0f0f;
+    }
+    .bgmob{
+        height: 220px;
+        object-fit: cover;
+        object-position: 80%;
+    }
+    .contactUsBox .contImg {
+        background: #fedb00;
+        padding: 10px;
+        margin-right: 20px;
+        border-radius: 50px;
+    }
+    .contactUsBox .contText h5 {
+        font-size: 18px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .m-text-center{
+        text-align: center !important;
+    }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .hero_heading {
+    font-size: 34px;
+}
+  
+    .p20p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+      
+    .heading {
+    font-size: 32px;
+}
+
+
+}
+
+/* General reset */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /* Mobile menu styling */
+  .mobile-menu {
+    background-color: #000; /* Black background */
+    width: 100%; /* Full width */
+    position: fixed; /* Sticks at the top */
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 9999999;
+  }
+  
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column; /* Stack menu items vertically */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mobile-menu li {
+    width: 100%; /* Make each item take full width */
+    text-align: left;
+  }
+  .closemobpopup {
+    text-align: right;
+    font-size: 32px;
+}
+  
+  .mobile-menu a {
+    display: block;
+    padding: 15px;
+    color: #fff; /* White text */
+    font-size: 18px;
+  }
+  
+  /* Hover effect */
+  .mobile-menu li a:hover {
+    background-color: #fedb00; /* Dark gray hover */
+  }
+  .hidden {
+    display: none;
+  }
+  .closemobpopup a {
+    font-size: 20px;
+    margin-right: 10px;
+}
+  
+ 
+  
